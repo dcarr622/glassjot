@@ -30,7 +30,7 @@ import javax.servlet.http.HttpServletResponse;
 /**
  * This servlet manages the OAuth 2.0 dance
  *
- * @author Jenny Murphy - http://google.com/+JennyMurphy
+ * 
  */
 public class AuthServlet extends HttpServlet {
   private static final Logger LOG = Logger.getLogger(AuthServlet.class.getSimpleName());

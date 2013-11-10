@@ -21,7 +21,7 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpSession;
 
 /**
- * @author Jenny Murphy - http://google.com/+JennyMurphy
+ * 
  */
 public class WebUtil {
   /**

@@ -39,7 +39,7 @@ import javax.servlet.http.HttpSession;
  * A collection of utility functions that simplify common authentication and
  * user identity tasks
  *
- * @author Jenny Murphy - http://google.com/+JennyMurphy
+ * 
  */
 public class AuthUtil {
   public static ListableMemoryCredentialStore store = new ListableMemoryCredentialStore();

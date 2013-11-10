@@ -43,7 +43,7 @@ import javax.servlet.http.HttpServletResponse;
 /**
  * Handles the notifications sent back from subscriptions
  *
- * @author Jenny Murphy - http://google.com/+JennyMurphy
+ * 
  */
 public class NotifyServlet extends HttpServlet {
   private static final Logger LOG = Logger.getLogger(NotifyServlet.class.getSimpleName());

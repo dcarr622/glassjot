@@ -33,7 +33,7 @@ import javax.servlet.http.HttpServletResponse;
  * A filter which reacts to invalid grant_auth exceptions, typically caused when a user toggles a
  * Glassware 'off' on MyGlass. It redirects to the login flow when this happens.
  *
- * @author Jenny Murphy - http://google.com/+JennyMurphy
+ * 
  */
 public class ReauthFilter implements Filter {
   private static final Logger LOG = Logger.getLogger(ReauthFilter.class.getSimpleName());

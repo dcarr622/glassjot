@@ -32,7 +32,7 @@ import javax.servlet.http.HttpServletRequest;
 /**
  * Utility functions used when users first authenticate with this service
  *
- * @author Jenny Murphy - http://google.com/+JennyMurphy
+ * 
  */
 public class NewUserBootstrapper {
   private static final Logger LOG = Logger.getLogger(NewUserBootstrapper.class.getSimpleName());

@@ -43,7 +43,7 @@ import com.google.common.collect.Lists;
 /**
  * Handles POST requests from index.jsp
  *
- * @author Jenny Murphy - http://google.com/+JennyMurphy
+ * 
  */
 public class MainServlet extends HttpServlet {
 

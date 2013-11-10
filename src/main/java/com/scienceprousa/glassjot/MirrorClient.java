@@ -39,7 +39,7 @@ import java.util.logging.Logger;
 /**
  * A facade for easier access to basic API operations
  *
- * @author Jenny Murphy - http://google.com/+JennyMurphy
+ * 
  */
 public class MirrorClient {
   private static final Logger LOG = Logger.getLogger(MirrorClient.class.getSimpleName());

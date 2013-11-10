@@ -28,7 +28,7 @@ import java.util.concurrent.locks.ReentrantLock;
  * com.google.api.client.auth.oauth2.MemoryCredentialStore except it
  * has the added ability to list all of the users.
  *
- * @author Jenny Murphy - http://google.com/+JennyMurphy
+ * 
  */
 public class ListableMemoryCredentialStore implements CredentialStore {
 
