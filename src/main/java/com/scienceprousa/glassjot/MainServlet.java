@@ -13,7 +13,7 @@
  * License for the specific language governing permissions and limitations under
  * the License.
  */
-package com.google.glassware;
+package com.scienceprousa.glassjot;
 
 import com.google.api.client.auth.oauth2.Credential;
 import com.google.api.client.googleapis.batch.BatchRequest;
@@ -69,8 +69,8 @@ public class MainServlet extends HttpServlet {
   }
 
   private static final Logger LOG = Logger.getLogger(MainServlet.class.getSimpleName());
-  public static final String CONTACT_ID = "com.google.glassware.contact.java-quick-start";
-  public static final String CONTACT_NAME = "Java Quick Start";
+  public static final String CONTACT_ID = "com.scienceprousa.glassjot.contact.java-quick-start";
+  public static final String CONTACT_NAME = "GlassJot";
 
   private static final String PAGINATED_HTML =
       "<article class='auto-paginate'>"

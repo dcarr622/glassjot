@@ -1,6 +1,9 @@
 /* Add some padding to shift the body down underneath the navbar. */
+
 body {
 	padding-top: 60px;
+	background-image:url('images/paper.jpg');
+	background-color:#cccccc;
 }
 
 @media (max-width: 980px) {

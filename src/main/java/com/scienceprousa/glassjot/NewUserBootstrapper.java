@@ -13,7 +13,7 @@
  * License for the specific language governing permissions and limitations under
  * the License.
  */
-package com.google.glassware;
+package com.scienceprousa.glassjot;
 
 import com.google.api.client.auth.oauth2.Credential;
 import com.google.api.client.googleapis.json.GoogleJsonResponseException;
@@ -73,7 +73,7 @@ public class NewUserBootstrapper {
 
     // Send welcome timeline item
     TimelineItem timelineItem = new TimelineItem();
-    timelineItem.setText("Welcome to the Glass Java Quick Start");
+    timelineItem.setText("Welcome to the Glass GlassJot");
     timelineItem.setNotification(new NotificationConfig().setLevel("DEFAULT"));
     TimelineItem insertedItem = MirrorClient.insertTimelineItem(credential, timelineItem);
     LOG.info("Bootstrapper inserted welcome message " + insertedItem.getId() + " for user "

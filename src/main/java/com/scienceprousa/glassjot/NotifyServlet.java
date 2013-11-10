@@ -13,7 +13,7 @@
  * License for the specific language governing permissions and limitations under
  * the License.
  */
-package com.google.glassware;
+package com.scienceprousa.glassjot;
 
 import com.google.api.client.auth.oauth2.Credential;
 import com.google.api.client.json.JsonFactory;
@@ -107,7 +107,7 @@ public class NotifyServlet extends HttpServlet {
       MirrorClient.insertTimelineItem(
           credential,
           new TimelineItem()
-              .setText("Java Quick Start says you are now at " + location.getLatitude()
+              .setText("GlassJot says you are now at " + location.getLatitude()
                   + " by " + location.getLongitude())
               .setNotification(new NotificationConfig().setLevel("DEFAULT")).setLocation(location)
               .setMenuItems(Lists.newArrayList(new MenuItem().setAction("NAVIGATE"))));
@@ -132,7 +132,7 @@ public class NotifyServlet extends HttpServlet {
 
         // Create a new item with just the values that we want to patch.
         TimelineItem itemPatch = new TimelineItem();
-        itemPatch.setText("Java Quick Start got your photo! " + caption);
+        itemPatch.setText("GlassJot got your photo! " + caption);
 
         // Patch the item. Notice that since we retrieved the entire item above
         // in order to access the caption, we could have just changed the text
@@ -162,13 +162,13 @@ public class NotifyServlet extends HttpServlet {
 
   /**
    * Wraps some HTML content in article/section tags and adds a footer
-   * identifying the card as originating from the Java Quick Start.
+   * identifying the card as originating from the GlassJot.
    *
    * @param content the HTML content to wrap
    * @return the wrapped HTML content
    */
   private static String makeHtmlForCard(String content) {
     return "<article class='auto-paginate'>" + content
-        + "<footer><p>Java Quick Start</p></footer></article>";
+        + "<footer><p>GlassJot</p></footer></article>";
   }
 }
