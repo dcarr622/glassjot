@@ -1,11 +1,9 @@
-Google Mirror API's Quickstart for Java
+GlassJot
 ========================
 
-The documentation for this quickstart is maintained on developers.google.com.
-Please see here for more information:
-https://developers.google.com/glass/quickstart/java
+http://glassjot.scienceprousa.com
 
-## License
-Code for this project is licensed under [APL 2.0](http://www.apache.org/licenses/LICENSE-2.0.html)
-and content is licensed under the
-[Creative Commons Attribution 3.0 License](http://creativecommons.org/licenses/by/3.0/).
+This is a simple note-taking Glassware application meant to demonstrate the features of the Mirror API and the process for developing an application and deploying it to Google App Engine.
+
+Please see here for more information:
+https://developers.google.com/glass/
